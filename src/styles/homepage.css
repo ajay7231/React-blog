@@ -1,0 +1,72 @@
+.home__page {
+  height: 87vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login__message {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__message > h2 {
+  font-size: 80px;
+  margin: 0;
+}
+
+.login__message > h1 {
+  font-size: 100px;
+  width: 80%;
+  line-height: 1em;
+  margin: 10px auto;
+  margin-top: 0;
+  font-weight: 900;
+  letter-spacing: -4px;
+  color: rgb(17, 17, 17);
+  text-decoration: underline;
+}
+
+.login__message > p {
+  padding: 15px 0;
+  line-height: 1.5em;
+  width: 50%;
+  margin: auto;
+  font-size: 16px;
+}
+
+.login__button {
+  width: 200px;
+  margin: 15px auto 0px auto;
+  padding: 15px 0;
+  border: none;
+  background: #f2a154;
+  font-family: "Inter";
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 15px;
+  outline: none;
+}
+.animate {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.2s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.animate:hover,
+.animate:focus,
+.animate:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
